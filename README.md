@@ -1,5 +1,6 @@
 # Alloys-Workflow
-<img src="https://i.imgur.com/rTzu7kR.png" alt="DFT-Surface WaNo logo" width="200"/>
+
+![plot](./Workflow.png)
 
 When publishing results obtained with SOD Workflow, please consider citing it.
 
