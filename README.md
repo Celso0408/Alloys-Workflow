@@ -5,7 +5,7 @@ When publishing results obtained with SOD Workflow, please consider citing it.
 
 
 # Colab
-* Colab notebook for data visualization [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ya9pwN7OXd_CaeIFAYofjYyKTqFQtRn-?usp=sharing)
+* Colab notebook for data visualization [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]*(https://colab.research.google.com/drive/1asjGKK279q1IFtY9fSB4oAzEqh9cPdl8?usp=sharing)
 # Alloys Workflow
 
 In this workflow, the SimStack framework generates configurations to analyze the thermodynamic properties of binary alloys within the Generalized Quasichemical Approximation (GQCA). For this, five different **WaNos** are combined: SOD-2022, Mult-It, UnpackMol, DFT-VASP, and Table-Generator. A table containing the clusters' total energies, degeneracy factors, and several site substitutions is the expected output of this protocol.
