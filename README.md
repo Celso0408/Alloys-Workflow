@@ -1,6 +1,5 @@
 # Alloys-Workflow
-
-![plot](./Workflow.png)
+<img src="https://i.imgur.com/rTzu7kR.png" alt="DFT-Surface WaNo logo" width="200"/>
 
 When publishing results obtained with SOD Workflow, please consider citing it.
 
@@ -22,8 +21,8 @@ To create the workflow depicted in **Figure 1**, you must use the drag-and-drop 
 ```
  
  ## Alloys workflow with **_AdvancedFor_** loop control
- 
-<img src="https://i.imgur.com/ogc8LsQ.jpg" alt="DFT-Surface WaNo logo" width="100%"/>
+
+<img src="./Workflow.png" alt="DFT-Surface WaNo logo" width="100%"/>
 
 **Figure 1** _This workflow aims to perform several DFT calculations of cluster configurations within the GQCA framework. It is made from SOD-2022, Mult-It, UnpackMol, DFT-VASP, and Table-Generator **WaNos** connected by the AdvancedFor loop control. In step 1, we generate the configurations containing a given number of atomic substitutions; another substitutes one atomic species, and their degeneracy factors are calculated using space group symmetry operations from the pristine crystal structure. Steps 2, 3, and 4 define the group of the supercell configurations and set the DFT calculation methods employed in the simulation. In the last step, Table-Generator **Wano** extracts the required variables of the output files from the previous steps._
 
