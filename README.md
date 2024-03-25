@@ -94,7 +94,7 @@ def fmix(x, T):
     """
 ```
 
-This function sum the contributions from emix and smix to return the mixing free energy of alloy, calculated at average composition *x* and temperature *T*.
+This function sum the contributions from emix and smix to return the mixing free energy of alloy,i.e. <img src="https://render.githubusercontent.com/render/math?math=\Delta F = \Delta U - T\Delta S">, calculated at average composition *x* and temperature *T*.
 
 ```python
   def kld(x, T):
