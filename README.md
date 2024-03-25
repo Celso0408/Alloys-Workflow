@@ -111,6 +111,22 @@ This function sum the contributions from emix and smix to return the mixing free
 
 The function kld returns the Kullback-Leibler divergence between the probabilities distributions computed from xj and xj0 functions explained above. It uses both functions, employing as input parameters the average compostion of alloy and its temperature *T* in Kelvin. 
 
+```python
+def second_derivative(self, x, T):
+
+    """
+    Calculates the second derivative of the Helmholtz free energy using finite differences
+
+    Parameters:
+        x (float): The composition of alloy, such as 0<=x<=1.
+        T (float): Temperature in Kelvin.
+    Returns:
+        d2fmix/dx2 (float): The second derivative at composition x and temperature T.
+    """
+```
+
+This function returns the second derivative of mixing free energy at average composition *x* and temperature *T*. It is used to obtain the spinodal lines making the *T*-*x* phase diagrams of alloys.
+
 # Alloys Workflow
 
 In this workflow, the SimStack framework generates configurations to analyze the thermodynamic properties of binary alloys within the Generalized Quasichemical Approximation (GQCA). For this, five different **WaNos** are combined: SOD-2022, Mult-It, UnpackMol, DFT-VASP, and Table-Generator. A table containing the clusters' total energies, degeneracy factors, and several site substitutions is the expected output of this protocol.
