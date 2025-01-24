@@ -1,7 +1,7 @@
 # Alloys-Workflow
 <img src="https://i.imgur.com/rTzu7kR.png" alt="DFT-Surface WaNo logo" width="200"/>
 
-When publishing results obtained with SOD Workflow, please consider citing it.
+When publishing results obtained with SOD Workflow, please consider citing it DOI: [https://doi.org/10.1038/s41524-024-01320-8](https://doi.org/10.1038/s41524-024-01320-8)
 
 
 # Colab
